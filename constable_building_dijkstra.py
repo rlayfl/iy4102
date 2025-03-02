@@ -61,5 +61,5 @@ def begin_dijkstras(adj_matrix, start_node):
     shortest_distances = dijkstra(adj_matrix, start_node)
     print(f"Shortest distances from node {start_node}: {shortest_distances}")
 
-
+# Start software
 begin_dijkstras(adj_matrix, start_node)
